@@ -7,6 +7,7 @@ def get_user_info():
 def print_greeting(name, age):
     print(f"안녕하세요, {name}님! 당신의 나이는 {age}살이군요.")
 
+
 def main():
     name, age = get_user_info()
     print_greeting(name, age)
